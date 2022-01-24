@@ -160,7 +160,7 @@ async def play(_, message: Message):
             return await mystic.edit_text(f"Song Not Found.\n**Possible Reason:**{e}")    
         smex = int(time_to_seconds(duration))
         if smex > DURATION_LIMIT:
-            return await mystic.edit_text(f"**__Duration Error__**\n\n**Allowed Duration: **90 minute(s)\n**Received Duration:** {duration} minute(s)")
+            return await mystic.edit_text(f"**__Duration Error__**\n\n**Allowed Duration: **120 minute(s)\n**Received Duration:** {duration} minute(s)")
         if duration == "None":
             return await mystic.edit_text("Sorry! Live videos are not Supported")
         if views == "None":
