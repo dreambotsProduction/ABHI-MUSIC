@@ -112,13 +112,13 @@ async def play(_, message: Message):
         fucksemx = 1
         what = "Audio Searched"
         await LOG_CHAT(message, what)
-        mystic = await message.reply_text(f"**🔄 𝙎𝙀𝙍𝙑𝙀𝙍 𝙎𝙇𝙊𝙒 𝙃𝘼 𝙒𝘼𝙄𝙏🤤 {username}**")
+        mystic = await message.reply_text(f"**🔄 𝙎𝙀𝙍𝙑𝙀𝙍 𝙎𝙇𝙊𝙒 𝙒𝘼𝙄𝙏🤤 {username}**")
         if audio.file_size > 157286400:
             await mystic.edit_text("Audio File Size Should Be Less Than 150 mb") 
             return
         duration = round(audio.duration / 60)
         if duration > DURATION_LIMIT:
-            return await mystic.edit_text(f"**__Duration Error__**\n\n**Allowed Duration: **{DURATION_LIMIT} minute(s)\n**Received Duration:** {duration} minute(s)")
+            return await mystic.edit_text(f"**__Duration Error__**\n\n**Allowed Duration: **{120.30} minute(s)\n**Received Duration:** {duration} minute(s)")
         file_name = audio.file_unique_id + '.' + (
             (
                 audio.file_name.split('.')[-1]
@@ -137,7 +137,7 @@ async def play(_, message: Message):
             else file_name,
         )
         title = "Selected Audio from Telegram"
-        link = "https://t.me/ABHI-xd"
+        link = "https://t.me/ash_xd_pro"
         thumb = "cache/Audio.png"
         videoid = "smex1"
     elif url:
@@ -237,7 +237,7 @@ async def play(_, message: Message):
         what = "Query Given"
         await LOG_CHAT(message, what)
         query = message.text.split(None, 1)[1]
-        mystic = await message.reply_text("**💙 𝘿𝙚𝙠𝙝 𝙧𝙖𝙝𝙖 𝙝𝙪**")
+        mystic = await message.reply_text("**ഇപ്പ ശരിയാക്കിത്തരാം😁❤️**")
         try:
             a = VideosSearch(query, limit=1)
             for result in a.result()["result"]:
