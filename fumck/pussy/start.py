@@ -24,8 +24,8 @@ def start_pannel():
                 InlineKeyboardButton(text="🎚 Commands Menu", url="https://telegra.ph/Mentos-Music-11-27")
             ],
             [ 
-                InlineKeyboardButton(text="📨Official Channel", url="https://t.me/vexera_updates"),
-                InlineKeyboardButton(text="📨Support Group", url="https://t.me/snehabhi_server")
+                InlineKeyboardButton(text="📨Official Channel", url="https://t.me/malayalam_booksstall"),
+                InlineKeyboardButton(text="📨Support Group", url="https://t.me/kerala_friendship")
             ],
     ]
     return "🎛  **This is Music Music Bot**", buttons
@@ -38,7 +38,7 @@ pstart_markup=InlineKeyboardMarkup(
                 [InlineKeyboardButton("🧰 Cᴏᴍᴍᴀɴᴅꜱ 🧰", url=f"https://telegra.ph/Chutuya-11-27")],
                 [
                     InlineKeyboardButton(
-                        "📢 Uᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/akshramuthukal"), 
+                        "📢 Uᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/malayalam_booksstall"), 
                     InlineKeyboardButton(
                         "💬 Sᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/kerala_friendship")
                 ],
